@@ -69,7 +69,7 @@ Este equipo es una mezcla entre los dos vistos anteriormente, normalmente aparec
 
 A continuación, os dejo una breve presentación del pirata informático más famoso de la historia:
 
-![Kevin Mitnick](../mitnick.jpg)
+![Kevin Mitnick](../images/Mitnick.jpg)
 
 Kevin Mitnick (Condor), fue posiblemente el hacker más importante de la historia, empezo sus andaduras cuando todavía era un adolecente, durante su época de hacker utilizaba técnicas de pheaker para infiltrarse en los sistemas de compañias como: Pacific Bell, Novell, Nokia, el Departamento de Vehículos de California, la oficina de la Seguridad Social, intercepto llamadas de la NSA e incluso llego a vigilar a los agentes del FBI que le trataban de detener.
 
