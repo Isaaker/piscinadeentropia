@@ -66,9 +66,6 @@ plugins:
       pretty_print: !ENV [PRETTY_RSS, false]
       length: 30
       match_path: "./*"
-  - material/social:
-      cards_layout_options:
-          font_family: Ubuntu
 
 
 
