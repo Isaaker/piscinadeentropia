@@ -1,7 +1,7 @@
 site_name: Piscina de Entropia 
 site_url: https://piscinadeentropia.es
 site_description: ¿Has probado a apagarlo y volverlo a encender?
-copyright: Copyright &copy; 2021-2024 Isaac Hernan
+copyright: Copyright &copy; 2021-2024 Isaac Hernan | <a href="#__consent">Cambiar configuración de privacidad</a>
 
 theme:
     name: material
@@ -17,23 +17,24 @@ theme:
       - navigation.sections
       - navigation.top
       - navigation.footer
+      - search.suggest
     palette:
       - primary: blue
       - accent: cyan 
       - media: "(prefers-color-scheme)"
         toggle:
           icon: material/brightness-auto
-          name: Switch to light mode
+          name: Cambiar a Modo Claro
       - media: "(prefers-color-scheme: light)"
         scheme: default
         toggle:
-          icon: material/brightness-7
-          name: Switch to dark mode
+          icon: material/weather-night
+          name: Cambiar a Modo Oscuro
       - media: "(prefers-color-scheme: dark)"
         scheme: slate
         toggle:
-          icon: material/brightness-4
-          name: Switch to system preference
+          icon: material/weather-sunny
+          name: Cambiar a Tema del Sistema
 
 markdown_extensions:
   - attr_list
@@ -53,6 +54,8 @@ plugins:
       strict: false
   - redirects
   - search
+  - privacy
+  - optimize
   - mkdocs-simple-hooks:
       hooks:
         on_config: "hooks.on_config:deploy_hooks"
@@ -64,6 +67,9 @@ plugins:
       pretty_print: !ENV [PRETTY_RSS, false]
       length: 30
       match_path: "./*"
+  - social
+    cards_layout_options:
+        font_family: Ubuntu
 
 
 
@@ -155,6 +161,17 @@ nav:
         - Paginas amigas: others/others_paginasamigas.md
 
 extra:
+  consent:
+    title: Antes de continuar...
+    description: >- 
+      En base a lo definido en las leyes de privacidad de la Unión Europea y otros Estados, 
+      Piscina de Entropia necesita su consentimiento para recabar datos y usar cookies en su web.
+      Piscina de Entropia utiliza estas cookies y datos recabados únicamente con fines de seguridad, optimización y análisis de tráfico, 
+      estos datos son únicamente compartidos con nuestros proovedores de confianza y no son útilizados con fines comerciales ni de otro tipo.
+      Para saber más, puede [leer nuestra política de privacidad](https://piscinadeentropia.es/about/about_politica-de-privacidad/).
+    buttons:
+      - accept
+      - reject
   social:
     - icon: fontawesome/brands/mastodon 
       link: https://mas.to/@piscina_de_entropia 
