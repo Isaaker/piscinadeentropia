@@ -7,7 +7,7 @@ theme:
     name: material
     language: "es"
     logo: ./images/pisicina_de_entropia_logo.png
-    favicon: ./images/favicon.ico
+    favicon: ./images/pisicina_de_entropia_logo.png
     font:
         text: Ubuntu 
         code: IBM Plex Mono 
@@ -54,7 +54,8 @@ plugins:
       strict: false
   - redirects
   - search
-  - privacy
+  - privacy:
+      assets: false
   - mkdocs-simple-hooks:
       hooks:
         on_config: "hooks.on_config:deploy_hooks"
