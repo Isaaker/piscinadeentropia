@@ -6,8 +6,8 @@ copyright: Copyright &copy; 2021-2024 Isaac Hernan | Terminantemente prohibida s
 theme:
     name: material
     language: "es"
-    logo: ./images/pisicina_de_entropia_logo.png
-    favicon: ./images/pisicina_de_entropia_logo.png
+    logo: /docs/images/pisicina_de_entropia_logo.png
+    favicon: /docs/images/pisicina_de_entropia_logo.png
     font:
         text: Ubuntu 
         code: IBM Plex Mono 
