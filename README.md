@@ -5,6 +5,8 @@ Repositorio oficial de piscinadeentropia.es
 
 [Github.io link](https://isaaker.github.io/piscinadeentropia/)
 
+![Not by AI](./docs/images/not_by_ai/notbyAI_english.png) ![No hecho por IA](./docs/images/not_by_ai/notbyAI_español.png)
+
 # Status
 
 ## Workflows

@@ -34,3 +34,6 @@ hide:
 ![](images/Phising.gif)
 
 [Leer Más](./ciberseguridad/ciberseguridad_evita_el_phising.md)
+
+<hr>
+![Not by AI](./docs/images/not_by_ai/notbyAI_english.png) ![No hecho por IA](./docs/images/not_by_ai/notbyAI_español.png)
