@@ -3107,7 +3107,7 @@
 <h2 id="como-funciona-pi-hole">¿Cómo funciona Pi-Hole®?<a class="headerlink" href="#como-funciona-pi-hole" title="Permanent link">&para;</a></h2>
 <p>Como ya vengo explicando, Pi-Hole® es un programa facilmente instalable en sistemas linux o mediante una imagen docker, y que permite el bloqueo de dominios mediante tecnología DNS.</p>
 <p>El usuario conecta los diferentes dispositivos que quiere que reciban la protección de Pi-Hole®, mediante los ajustes de red cambiando la opción DNS a la dirección IP del equipo que esta ejecutando Pi-hole®. Y Pi-hole® lo que hace es recibir todas las peticiones de conexion del dispositivo a los diferentes dominios, filtrando estas mediante las listas y reglas establecidas en los ajustes (que trataremos más adelante), en caso de que la petición sea valida la dejara pasar (devolvera al dispositivo la ip del servidor que ha solicitado) y en caso contrario "cortara" la conexión para que el dispositivo no se pueda conectar a ese dominio (devolverá la IP 0.0.0.0 que no es una IP valida).</p>
-<p><img alt="" src="../../images/esquema_pihole.jpg" /></p>
+<p><img alt="" src="../../../images/esquema_pihole.png" /></p>
 <h2 id="que-es-el-protocolo-dns">¿Qué es el protocolo DNS?<a class="headerlink" href="#que-es-el-protocolo-dns" title="Permanent link">&para;</a></h2>
 <p>Para comprender todo esto un poco mejor, os dejo aquí una breve descripción de que es el protocolo DNS:</p>
 <p>El sistema de Nombres de Dominio o Domain Name Server en inglés es una tecnología desarrollada en los años 80 y que tiene como proposito asociar nombres de dominio a las direcciones IPs de los servidores o dispositivos en Internet y en Redes en general.</p>
@@ -3288,14 +3288,14 @@ ufw allow 67/udp
 </ul>
 <h2 id="capturas-de-pi-hole">Capturas de Pi-Hole®<a class="headerlink" href="#capturas-de-pi-hole" title="Permanent link">&para;</a></h2>
 <p><strong>Capturas obtenidas de la página web de pi-hole</strong></p>
-<p><img alt="Pi-Hole Vista General" src="../../../assets/external/wp-cdn.pi-hole.net/wp-content/uploads/2020/04/Dashboard.png">
+<p><img alt="Pi-Hole Vista General" src="../../../https:/wp-cdn.pi-hole.net/wp-content/uploads/2020/04/Dashboard.png">
 <img alt="DCHP Config" src="../../../assets/external/wp-cdn.pi-hole.net/wp-content/uploads/2018/12/Screenshot-2018-12-19-17.39.58.png">
 <img alt="Lista de Bloqueo manual" src="../../../assets/external/wp-cdn.pi-hole.net/wp-content/uploads/2020/02/Screenshot-2018-12-22-11.17.24.png">
 <img alt="Log de Peticiones" src="../../../assets/external/wp-cdn.pi-hole.net/wp-content/uploads/2018/12/Screenshot-2018-12-19-17.50.40.png">
-<img alt="Estadísticas" src="../../../assets/external/wp-cdn.pi-hole.net/wp-content/uploads/2020/08/long-term-stats1-e1597224606922.png">
-<img alt="Registro de auditoria" src="../../../assets/external/wp-cdn.pi-hole.net/wp-content/uploads/2020/08/audit-log1.png">
-<img alt="Modos de privacidad" src="../../../assets/external/wp-cdn.pi-hole.net/wp-content/uploads/2020/02/Screenshot-2018-12-20-12.30.34.png">
-<img alt="Otros Ajustes" src="../../../assets/external/wp-cdn.pi-hole.net/wp-content/uploads/2020/02/Screenshot-2018-12-20-12.26.29.png"></p>
+<img alt="Estadísticas" src="../../../https:/wp-cdn.pi-hole.net/wp-content/uploads/2020/08/long-term-stats1-e1597224606922.png">
+<img alt="Registro de auditoria" src="../../../https:/wp-cdn.pi-hole.net/wp-content/uploads/2020/08/audit-log1.png">
+<img alt="Modos de privacidad" src="../../../https:/wp-cdn.pi-hole.net/wp-content/uploads/2020/02/Screenshot-2018-12-20-12.30.34.png">
+<img alt="Otros Ajustes" src="../../../https:/wp-cdn.pi-hole.net/wp-content/uploads/2020/02/Screenshot-2018-12-20-12.26.29.png"></p>
 <h2 id="enlaces-oficiales-de-pi-hole">Enlaces oficiales de Pi-Hole®<a class="headerlink" href="#enlaces-oficiales-de-pi-hole" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://pi-hole.net">Página web oficial</a></li>
