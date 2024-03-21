@@ -26,4 +26,4 @@ Isaaker.
 
 Enlaces Fotos:
 
-[Esquema Doble Factor Telegram](https://piscinadeentropia.es/sms-2/)
+[Esquema Doble Factor Telegram](../images/telegram_sms.png)
