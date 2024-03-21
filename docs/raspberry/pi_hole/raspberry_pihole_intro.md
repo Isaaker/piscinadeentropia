@@ -21,7 +21,7 @@ Como ya vengo explicando, Pi-Hole® es un programa facilmente instalable en sist
 
 El usuario conecta los diferentes dispositivos que quiere que reciban la protección de Pi-Hole®, mediante los ajustes de red cambiando la opción DNS a la dirección IP del equipo que esta ejecutando Pi-hole®. Y Pi-hole® lo que hace es recibir todas las peticiones de conexion del dispositivo a los diferentes dominios, filtrando estas mediante las listas y reglas establecidas en los ajustes (que trataremos más adelante), en caso de que la petición sea valida la dejara pasar (devolvera al dispositivo la ip del servidor que ha solicitado) y en caso contrario "cortara" la conexión para que el dispositivo no se pueda conectar a ese dominio (devolverá la IP 0.0.0.0 que no es una IP valida).
 
-![](../../images/esquema_pihole.jpg)
+![](../../images/esquema_pihole.png)
 
 ## ¿Qué es el protocolo DNS?
 
