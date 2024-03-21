@@ -1,7 +1,7 @@
 site_name: Piscina de Entropia 
 site_url: https://piscinadeentropia.es
 site_description: ¿Has probado a apagarlo y volverlo a encender?
-copyright: Copyright &copy; 2021-2024 Isaac Hernan | <a href="#__consent">Cambiar configuración de privacidad</a>
+copyright: Copyright &copy; 2021-2024 Isaac Hernan | Terminantemente prohibida su reproducción y/o distribución parcial o completa y su uso en Inteligencia Artificial | <a href="#__consent">Cambiar configuración de privacidad</a>
 
 theme:
     name: material
