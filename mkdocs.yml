@@ -58,7 +58,6 @@ plugins:
       assets: false
 
 
-
 nav:
     - Inicio: index.md
     - General: 
