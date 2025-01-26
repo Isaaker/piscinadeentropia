@@ -1,6 +1,5 @@
 name: SAST GitLeaks
 on:
-  push:
   workflow_dispatch:
 jobs:
   sast_semgrep:
