@@ -5,7 +5,6 @@ hide:
 
 # Inicio
 ![](./images/pisicina_de_entropia_logo.png)
-**Todo el contenido se encuentra bajo copyright para más información compruébe el pie de la web**
 
 ## Redes sociales
 
