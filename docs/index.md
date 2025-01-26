@@ -1,13 +1,11 @@
 ---
 hide:
   - footer
-License
 ---
 
 # Inicio
 
 ![](./images/pisicina_de_entropia_logo.png)
-
 
 ## Redes sociales
 
@@ -38,3 +36,4 @@ License
 <hr>
 
 ![Not by AI](./images/not_by_ai/notbyAI_english.png) ![No hecho por IA](./images/not_by_ai/notbyAI_español.png)
+Check license for more info
