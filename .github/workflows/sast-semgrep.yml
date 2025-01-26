@@ -1,6 +1,5 @@
 name: SAST Semgrep
 on:
-  push:
   workflow_dispatch:
 jobs:
   sast_semgrep:
