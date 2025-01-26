@@ -62,12 +62,11 @@ plugins:
   - rss:
       date_from_meta:
         as_creation: "date"
-        as_update: false
-        datetime_format: "%Y-%m-%d"
+        as_update: "false"  # Change from false (boolean) to "false" (string)
+      datetime_format: "%Y-%m-%d"
       pretty_print: !ENV [PRETTY_RSS, false]
       length: 30
       match_path: "./*"
-
 
 
 nav:
