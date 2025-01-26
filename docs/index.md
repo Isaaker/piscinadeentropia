@@ -4,8 +4,8 @@ hide:
 ---
 
 # Inicio
-
 ![](./images/pisicina_de_entropia_logo.png)
+**Todo el contenido se encuentra bajo copyright para más información compruébe el pie de la web**
 
 ## Redes sociales
 
@@ -36,4 +36,3 @@ hide:
 <hr>
 
 ![Not by AI](./images/not_by_ai/notbyAI_english.png) ![No hecho por IA](./images/not_by_ai/notbyAI_español.png)
-Check license for more info
