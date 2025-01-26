@@ -114,7 +114,7 @@ nav:
         - "iOS 14.7": "apple/apple_iOS-14-7.md"
         - "Las nuevas AirTags": "apple/apple_nuevas-airtags.md"
         - "Las nuevas AirTags 2": "apple/apple_nuevas-airtags-2.md"
-        - "Vulnerabilida en los nuevos chips de Apple M1": "apple/apple_vulnerabilidad-en-los-nuevos-chips-de-apple-M1"
+        - "Vulnerabilida en los nuevos chips de Apple M1": "apple/apple_vulnerabilidad-en-los-nuevos-chips-de-apple-M1.md"
     - Consejos:
         - "Introducción": "consejos/consejos_intro.md"
     - Raspberry:
