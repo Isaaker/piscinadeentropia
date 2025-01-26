@@ -65,6 +65,7 @@ plugins:
       match_path: "./*"
 
 
+
 nav:
     - Inicio: index.md
     - General: 
