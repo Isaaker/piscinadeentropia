@@ -1,4 +1,4 @@
-name: MkDocs Deploy
+name: MkDocs Deploy Cloudflare
 
 on:
   workflow_dispatch:
