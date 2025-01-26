@@ -56,13 +56,6 @@ plugins:
   - search
   - privacy:
       assets: false
-  - rss:
-      date_from_meta:
-        as_creation: date.created
-        as_update: date.updated  # Change from false (boolean) to "false" (string)
-      pretty_print: !ENV [PRETTY_RSS, false]
-      length: 30
-      match_path: "./*"
 
 
 
