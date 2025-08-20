@@ -2,6 +2,8 @@
 hide:
   - footer
 ---
+<a rel="me" href="https://mastodon.social/@isaaker">Mastodon</a>
+
 
 # Inicio
 ![](./images/pisicina_de_entropia_logo.png)
