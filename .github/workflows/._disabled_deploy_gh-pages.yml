@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the code
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683                    # @v4.2.2
+        uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3                    # @v6.0.0
       - name: Install NodeJs                                                               # Install Software NodeJs 
         uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f                  # @v6.1.0
         with:
@@ -31,7 +31,7 @@ jobs:
     name: gitleaks
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3
         with:
           fetch-depth: 0
       - uses: gitleaks/gitleaks-action@ff98106e4c7b2bc287b24eaf42907196329070c7
@@ -47,7 +47,7 @@ jobs:
       - scan
     steps:
       - name: Checkout main
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3
 
       - name: Set up Python 3.9
         uses: actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548
