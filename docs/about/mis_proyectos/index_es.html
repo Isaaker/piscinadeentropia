@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mis proyectos - Piscina de Entropía</title>
+<style>
+:root{
+  --primary:#6366f1;
+  --bg:#020617;
+  --card:#1e293b;
+  --text:#f8fafc;
+  --muted:#94a3b8;
+}
+*{margin:0;padding:0;box-sizing:border-box;font-family:system-ui}
+body{background:var(--bg);color:var(--text);scroll-behavior:smooth}
+nav{
+  position:sticky;top:0;z-index:10;
+  display:flex;justify-content:space-between;align-items:center;
+  padding:1rem 2rem;
+  background:rgba(2,6,23,.9);backdrop-filter:blur(10px)
+}
+nav ul{list-style:none;display:flex;gap:1.2rem;align-items:center}
+nav a{color:white;text-decoration:none;font-size:.9rem}
+select{background:var(--card);color:white;border:none;padding:.3rem .6rem;border-radius:6px;cursor:pointer}
+.hero{
+  min-height:90vh;
+  display:flex;flex-direction:column;
+  justify-content:center;align-items:center;
+  text-align:center;padding:2rem
+}
+.hero h2 span{color:var(--primary);}
+section{max-width:1100px;margin:auto;padding:5rem 2rem}
+.projects{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:1.5rem;margin-top:2rem
+}
+.project{background:var(--card);padding:1.5rem;border-radius:16px}
+.project a{color:var(--primary);text-decoration:none;font-size:.9rem}
+.skills{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1rem}
+.skills span{background:var(--card);padding:.5rem 1.1rem;border-radius:999px}
+footer{text-align:center;padding:2rem;color:var(--muted);border-top:1px solid rgba(255,255,255,.05)}
+table img{display:block;margin:auto}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <h2><span>Mis proyectos</span></h2>
+</section>
+
+<section id="projects">
+  <h2>Proyectos</h2>
+  <div class="projects" id="projects"></div>
+</section>
+
+<section id="social">
+  <h2>Encuéntrame</h2>
+  <table align="center">
+    <tr>
+      <td><a href="https://t.me/piscinadeentropia"><img src="./images/social_icons/telegram_icon.png" width="30" alt="Telegram"></a></td>
+      <td><a href="https://www.youtube.com/@piscinadeentropia"><img src="./images/social_icons/youtube_icon.png" width="30" alt="YouTube"></a></td>
+      <td><a href="https://github.com/isaaker"><img src="./images/social_icons/github_icon.png" width="30" alt="Github"></a></td>
+      <td><a href="mailto:isaaker@piscinadeentropia.es"><img src="./images/social_icons/email_icon.png" width="30" alt="Email"></a></td>
+    </tr>
+  </table>
+  <p style="text-align:center;margin-top:1rem">
+    <a rel="me" href="https://mastodon.social/@isaaker">Mastodon</a>
+  </p>
+</section>
+
+<footer>Copyright © 2021-2026 Isaac Hernan | Terminantemente prohibida su reproducción y/o distribución parcial o completa y su uso en Inteligencia Artificial | Cambiar configuración de privacidad</footer>
+
+<script>
+// Proyectos
+const projects = [
+  {t:"Piscina de Entropía",d:"Blog personal sobre tecnología"},
+  {t:"Comunidades de Soporte Técnico de Apple",d:"Transmito mi pasión por la informática y los productos de Apple ayudando a los demás"},
+  {t:"Spotify-AdsList",d:"Proyecto destacado que permite a los usuarios escuchar Spotify sin anuncios mediante tecnología adblocker"},
+  {t:"First Officer Bot",d:"Bot de Telegram diseñado para ayudar a entusiastas de la simulación o pilotos en tareas cotidianas como consultar el SIGWX"},
+  {t:"Transmitiendo a ciegas",d:"Comunidad de aviación enfocada a personas interesadas en trabajar en el sector del transporte aéreo en el futuro"}
+];
+const c=document.getElementById("projects");
+projects.forEach(p=>{
+  const d=document.createElement("div");
+  d.className="project";
+  d.innerHTML=`<h3>${p.t}</h3><p>${p.d}</p>`;
+  c.appendChild(d);
+});
+
+// Toggle ES/EN
+const langToggle = document.getElementById("lang-toggle");
+
+// Detectar idioma desde la URL
+const currentURL = window.location.href;
+if(currentURL.endsWith("index_en.html")){
+  langToggle.value = "en";
+}else{
+  langToggle.value = "es";
+}
+
+// Cambiar de archivo al seleccionar
+langToggle.addEventListener("change", e=>{
+  const lang = e.target.value;
+  if(lang === "en"){
+    if(!currentURL.endsWith("index_en.html")){
+      window.location.href = "index_en.html";
+    }
+  } else {
+    if(!currentURL.endsWith("index_es.html")){
+      window.location.href = "index_es.html";
+    }
+  }
+});
+</script>
+
+
+</body>
+</html>
+
