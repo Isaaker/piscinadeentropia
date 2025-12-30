@@ -11,13 +11,13 @@ Bienvenid@s a [piscinadeentropia.es](https://piscinadeentropia.es)
 
 # Acerca de mi
 
-Primero de todo me presento, soy Isaac Hernán aunque mi apodo es Isaaker y por ello vereis que siempre me hago llamar asi, soy hijo de Antonio Hernán, propietario de [pruebadeconcepto.es](https://pruebadeconcepto.es) (De casta le viene al galgo como dirian las abuelas).
+Primero de todo me presento, soy Isaac Hernán aunque mi apodo es Isaaker, soy hijo de Antonio Hernán, propietario de [pruebadeconcepto.es](https://pruebadeconcepto.es) (De casta le viene al galgo como dirian las abuelas).
 
-Soy un aficionado de la Tecnología, Informática, Ingeniería y Ciencias, con pasión por los productos de Apple, y las Raspberry Pi. Uso la mayoria de OS aunque soy mas de MacOS y Linux, también soy partidario de usar CLI y no "embarcaderos". Siempre uso vim y nunca nano, si me dieran a elegir creo que mi lenguaje de programacion favorito seria Python (Aunque esto sea, seguramente por que fue en el que empece programando).
+Soy un aficionado de la Tecnología, Informática, Ingeniería y Ciencias, con pasión por los productos de Apple, y las Raspberry Pi. Uso la mayoria de sistemas operativos aunque soy mas de MacOS y Linux, también soy partidario de usar CLI y no "embarcaderos", es por ello que también sigo la tradición familiar de usar vim como editor.
 
-También soy un poco Friki, mi escritor favorito es Isaac Asimov y me he leido muchos de sus libros, también me gustan los juegos retro como: Monkey Island aunque también juegos un poco mas actuales como The Legend of Zelda o Animal Croissing. Por ultimó soy muy fan de Steve Jobs y me he leido su unica biografía autorizada.
+Siempre estoy inventando algo nuevo y siempre tengo curiosidad por como funcionan las cosas. 
 
-Siempre estoy inventando algo nuevo y siempre tengo curiosidad por como funcionan las cosas. En mi tiempo libre, también [ayudo a la gente que necesita ayuda en las Comunidades Apple](https://communities.apple.com/es/profile/isaaker/participation)
+En mi tiempo libre, también [ayudo a la gente en las Comunidades Apple](https://communities.apple.com/es/profile/isaaker/participation)
 
 Bueno y eso es todo sobre mi.
 
