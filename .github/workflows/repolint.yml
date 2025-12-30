@@ -4,6 +4,8 @@
 # Needs master/repolint.json
 
 name: Repository Linter
+permissions:
+  contents: read
 on:
   workflow_dispatch:
       
